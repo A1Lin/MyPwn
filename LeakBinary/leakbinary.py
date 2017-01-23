@@ -1,6 +1,7 @@
 from pwn import*
 
-#This is a demo to leak data from a binary, the binary has a format overflow, just like "printf(buf)". But this demo can also be modified to leak data if the binary has other  loophole.
+'''This is a demo to leak data from a binary, the binary has a format overflow,just like "printf(buf)".
+But this demo can also be modified to leak data if the binary has other  loophole.'''
 
 def leak_data(p, addr)£º #p is a process or a remote
 	s = '%37$s' #can be modify
