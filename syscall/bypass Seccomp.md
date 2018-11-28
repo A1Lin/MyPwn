@@ -28,5 +28,7 @@ cs寄存器即code segment寄存器，指向存放代码的内存段，在8086�
 
 ### references:
 https://stackoverflow.com/questions/24113729/switch-from-32bit-mode-to-64-bit-long-mode-on-64bit-linux/32384358#32384358
+
 https://www.intel.cn/content/www/cn/zh/architecture-and-technology/64-ia-32-architectures-software-developer-manual-325462.html
+
 https://github.com/david942j/seccomp-tools
